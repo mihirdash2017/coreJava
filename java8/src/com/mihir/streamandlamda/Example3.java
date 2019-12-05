@@ -36,7 +36,8 @@ public class Example3 {
 				//paranthesis is optional,but only for one parameter lambda. 
 				
 				list.forEach( i->System.out.println("without paranthesis :"+i));
-				//using method refrence becoz here i am not passing the value i just passing the method
+				//using method refrence becoz here i am not passing the value i just passing the method.lambda is glue code
+				//http://blog.agiledeveloper.com/2015/06/lambdas-are-glue-code.html
 				list.forEach(System.out::println);
 		
 		
