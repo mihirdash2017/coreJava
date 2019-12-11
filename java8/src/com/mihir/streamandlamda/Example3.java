@@ -38,8 +38,10 @@ public class Example3 {
 				list.forEach( i->System.out.println("without paranthesis :"+i));
 				//using method refrence becoz here i am not passing the value i just passing the method.lambda is glue code
 				//http://blog.agiledeveloper.com/2015/06/lambdas-are-glue-code.html
+				//it is not good idea to write login inside lambda instaed of that just create amethos do the unit test and call it by lambda
 				list.forEach(System.out::println);
-		
+				
+		 
 		
 		
 		
